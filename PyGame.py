@@ -4,8 +4,11 @@ import time
 
 dragao = 120
 goblinking = 150
-vida = 100
+vida = 200
 Ragnar = 80
+aranha = 150
+hp = 150
+esqueletoKing = 150
 
 while True:
     
@@ -15,16 +18,16 @@ while True:
 
     print("Antes de iniciarmos sua aventura, me diga, qual dessas classes você deseja começar o jogo?\n")
 
-    print("1.Guerreiro - Você será mais ágil e habilidoso com armas.\n")
+    print("1.Guerreiro - Você será mais ágil e habilidoso com armas.\nEm breve a classe Mago e Doguinho Caramelo")
     
     
         
-    print("2.Mago - Você vai lutar com magias e será estratégico.\n")
+    # print("2.Mago - Você vai lutar com magias e será estratégico.\n")
     
     
     
-    print("3.Doguinho Caramelo - Essa raça/classe é apenas para quem deseja resenhar pelo mundo de Whalbior.\n")
-    # winsound.PlaySound("medieval-inicio.wav", winsound.SND_FILENAME)
+    # print("3.Doguinho Caramelo - Essa raça/classe é apenas para quem deseja resenhar pelo mundo de Whalbior.\n")
+    winsound.PlaySound("medieval-inicio.wav", winsound.SND_FILENAME)
     
     
 
@@ -434,8 +437,15 @@ while True:
                     print("Você: Ele praticamente pediu") 
                     print("")
                     time.sleep(1)
-                    print("Tink: Credo! Vamos sair daqui logo!")
+                    print("Tink: CREDO!")
                     print("")
+                    print("")
+                    time.sleep(1)
+                    print("Tink: VAMOS SAIR LOGO, EU NÃO AGUENTO MAIS!")
+                    print("Você: Vamos!")
+
+                    print("")
+                    time.sleep(2)
                     break
 
                 elif respostatink5 == "1":
@@ -448,18 +458,364 @@ while True:
                     print("")
                     print("Você: Ok, ragnar.")
                     print("Você: Você vai andando na frente e nós atrás.")
-
-
-
-
-
-
-
-
-
-                    print("Tink: Acho que já estou vendo a saida")
                     time.sleep(1)
-                    print("Voc: Acho que já estou vendo a saida")
+                    print("")
+                    print("Ragnar: Ok.")
+                    time.sleep(1)
+                    print("")
+                    print("Você: Você vai andando na frente e nós atrás.")
+                    time.sleep(1)
+                    print("")
+                    print("Ragnar: Olhem pessoal, acho que já estou vendo a sa--...")
+                    time.sleep(2)
+                    print("")
+                    print("Ragnar: ARANHA GIGANTE!!")
+                    print("Tink: ARANHA GIGANTE!!!")
+                    print("")
+                    #Audio monstro
+                    time.sleep(2)
+                    print("Você: Corram para atrás das pedras!")
+                    time.sleep(1)
+                    print("Você: Eu cuido desse monstro!")
+                    print("")
+
+                    print("Tink: CUIDADO COM A TEIA!!")
+                    print("")
+                    time.sleep(1)
+                    print("Você: AAHH DROGA!")
+                    time.sleep(1)
+                    print("Você: ELA ME PRENDEU NAS TEIAS DELA!")
+                    print("")
+                    time.sleep(1)
+                    print("Você: RAGNAR, ME AJUDA!")
+                    print("")
+                    time.sleep(1)
+                    print("Ragnar: Me desculpe, a saida é bem aqui")
+                    time.sleep(1)
+                    print("Ragnar: Eu tenho que fugir logo!")
+                    time.sleep(1)
+                    print("")
+                    print("             Ragnar foge")
+                    time.sleep(1)
+                    print("")
+                    print("Você: COVARDE!!")
+                    print("Tink: COVARDE!!")
+                    time.sleep(1)
+                    print("")
+                    print("Aranha: AAAARRRRGGGHHHH")
+                    time.sleep(1)
+                    print("")
+                    print("         Você corta a teia")
+                    time.sleep(1)
+                    print("")
+                    print("Tink: CUIDADO {}!!".format(nick))
+                    time.sleep(2)
+                    print("")
+
+                    while aranha > 0:
+                        ataque3 = input("Rápido! Qual ataque deseja utilizar?: ")
+                        if ataque3 == '1':
+                            print("Você esquivou das teias dela e realizou um ataque leve!")
+                            dano = random.randint(10,30)
+                            aranha -= dano
+                            print('Você realizou {} de dano na Aranha, restam {} de vida'.format(dano, aranha))
+                            #audio de espada
+                    
+                
+                        elif ataque3 == '2':
+                            print("Você esquivou das teias dela e realizou um ataque moderado!")
+                            dano = random.randint(50,70)
+                            aranha -= dano
+                            print('Você realizou {} de dano no aranha, restam {} de vida'.format(dano, aranha))
+                            #audio de espada
+                
+                
+                            print("")
+                            print("             Você Derrotou a aranha")
+                            print("")
+                            time.sleep(1)
+                            print("Tink: VAMOS SAIR LOGO, EU NÃO AGUENTO MAIS!")
+                            print("Você: Vamos!")
+                            print("")
+                            time.sleep(2)
+
+                        else:
+                            print("Escolha apenas uma das opções fornecidas.")
+
+            print("             Rio das Aguas mortas ")
+
+            print("")
+            time.sleep(1)
+
+            print("Você: Vamos Tink, entra logo nesse barco abandonado, precisamos atravessar o rio")
+
+            print("")
+            time.sleep(1)
+
+            print("Tink: Vou mesmo, aqui ta tão estranho")
+
+            print("Voce: Temos que ter muita atencao por aqui")
+            time.sleep(1)
+            print("Voce: Esta tudo muito calmo")
+            time.sleep(2)
+            print("Estranhamente calmo...")
+            #barulhp de suspense
+            
+            print("")
+            #barulho de peixe mergulhando
+            print("Tink: AAAAIII")
+            time.sleep(2)
+            print("Tink: QUE SUSTO!")
+            time.sleep(1)
+            print("voce: kkkkkk calma Tink, é só--...")
+            time.sleep(3)
+            print("voce: ...--um peixinho")
+            time.sleep(2)
+            print("Tink: HOMEM PEIXEEEE!!!")
+            #AUDIO grito monstro
+            time.sleep(1)
+            print("Voce: A cacete!")
+            time.sleep(1)
+            print("Voce: Esses monstros não dão uma tregua!")
+            print("")
+            time.sleep(2)
+            print("Homem-Peixe: Calma fadinha, eu não vim te fazer mal")
+            time.sleep(2)
+            print("Homem-Peixe: Fiquei apenas, curioso, pois nunca vi voces navegando nas minhas aguas ")
+            time.sleep(2)
+            print("")
+            print("Voce: Fala meu peixo, tudo bem?")
+            print("")
+            time.sleep(2)
+            print("Homem-peixe: O que estao fazendo nas minhas aguas?!")
+            
+            print("")
+            time.sleep(2)
+            print("1. Apenas querendo chegar ao nosso destino")
+            print("2. Não interessa")
+            print("3. Diminui o tom de voz ou você vai virar sardinha ")
+
+            while True:
+                resphp = input("Responda: ")
+                if resphp == '1':
+                    print("Você: Apenas querendo chegar ao nosso destino")
+                    print("")
+                    time.sleep(2)
+                    print("Homem-peixe: Não ligo! Saiam daqui por bem ou por mal!")
+                    print("Você: *puxa a espada*\nVou passar e acabou!")
+                    break
+            
+                elif resphp == '2':
+                    print("Você: Não interessa")
+                    time.sleep(2)
+                    print("Homem-peixe: Vou te ensinar a ter educação!")
+                    time.sleep(1)
+                    print("Você: vem pra cima!")
+                    break
+
+                elif resphp == '3':
+                    print("Você: Diminui o tom de voz ou você vai virar sardinha")
+                    time.sleep(1)
+                    print("Homem-peixe: AAHH SEEU!")
+                    break
+
+                else:
+                    print("Escolha apenas uma das opções acima.")
+                    continue
+
+
+            while hp > 0 and vida > 0:
+                print("Escolha seu ataque:")
+                print("1. Ataque Leve")
+                print("2. Ataque Moderado")
+                ataque_jogador = input("Digite o número do seu ataque: ")
+                if ataque_jogador == "1":
+                    dano_jogador = random.randint(20, 40)
+                    print("Você atacou o Homem-Peixe com um ataque leve, causando {} de dano!".format(dano_jogador))
+                elif ataque_jogador == "2":
+                    dano_jogador = random.randint(40, 60)
+                    print("Você atacou o Homem-Peixe com um ataque moderado, causando {} de dano!".format(dano_jogador))
+                else:
+                    print("Por favor, escolha um ataque válido.")
+
+                hp -= dano_jogador
+                if hp <= 0:
+                    print("Você derrotou o Homem-Peixe!")
+                    break
+
+                print("Homem-Peixe contra-ataca!")
+                danohp = random.randint(20, 30)
+                print("Homem-Peixe ataca você, causando {} de dano!".format(danohp))
+                vida -= danohp
+                if vida <= 0:
+                    print("Você foi derrotado pelo Homem-Peixe!")
+                    break
+
+            time.sleep(2)
+            print("Tink: UFA! esses monstros não param")
+            time.sleep(2)
+            print("Você: Verdade!")
+            time.sleep(2)
+            print("Você: Vamos, chegamos no castelo!")
+            time.sleep(2)
+            print("")
+
+            print("             CASTELO AMALDIÇOADO ")
+
+            time.sleep(2)
+            print("")
+
+            print("Tink: Olá, tem alguem AI-AI-ai-ai")
+            time.sleep(1)
+            print("Tink: escuta o eco absurdo desse lgar sinistro")
+            time.sleep(1)
+            print("Você: Cuidado Tink, aqui pode ter muitas armadihas")
+            time.sleep(2)
+            print("Você: Tink??")
+            time.sleep(2)
+            print("Tink: AAAAAHHHHH!!")
+            time.sleep(1)
+            print("Tink: SOCORRO {}, ACABEI DE CAIR NESSE BURACO!!".format(nick))
+            time.sleep(1)
+            print("Você: Se machucou?")
+            time.sleep(1)
+            print("Tink: Não muito")
+            time.sleep(1)
+            print("Você: Então voa até aqui pq você é uma fada")
+            print("")
+            time.sleep(2)
+            print("EsqueletoKing: QUEM OUSA PERTUBAR MEU SOSSEGO??")
+            time.sleep(2)
+            print("EsqueletoKing: QUEREM A ESPADA TAMBÉM?\nVOCÊS VÃO MORRER TENTANDO COMO OS OUTROS!!")
+            print("")
+            time.sleep(2)
+            print("Tink: CUIDADO {}, O ESQUELETÃO VAI TE PEGAR!".format(nick))
+            print("")
+            time.sleep(2)
+            print("{} desvia do esqueleto".format(nick))
+            print("")
+            time.sleep(1)
+            print("EsqueletoKing: VOU TE MATAR!!")
+
+            while esqueletoKing > 0 and vida > 0:
+                print("Escolha seu ataque:")
+                print("1. Ataque Leve")
+                print("2. Ataque Moderado")
+                ataque_jogador1 = input("Digite o número do seu ataque: ")
+
+                if ataque_jogador1 == "1":
+                    dano_jogador1 = random.randint(20, 40)
+                    print("Você atacou o esqueletão com um ataque leve, causando {} de dano!".format(dano_jogador1))
+                elif ataque_jogador1 == "2":
+                    dano_jogador1 = random.randint(40, 60)
+                    print("Você atacou o esqueletão com um ataque moderado, causando {} de dano!".format(dano_jogador1))
+                else:
+                    print("Por favor, escolha um ataque válido.")
+                    continue
+
+                esqueletoKing -= dano_jogador1
+
+                if esqueletoKing <= 0:
+                    print("Você aproveita que ele esta caido e consegue pegar a espada lendaria")
+                    time.sleep(2)
+                    print("Com a espada você finaliza e mata o Esqueleto")
+                    
+                    break
+
+                print("esqueletoKing contra-ataca!")
+                danoe = random.randint(10, 20)
+                print("esqueletoKing ataca você, causando {} de dano!".format(danoe))
+                vida -= danoe
+                if vida <= 0:
+                    print("Você foi derrotado pelo esqueletoKing!")
+                    break
+
+    print("")
+    time.sleep(2)
+    print("Esqueletão: AAAHHH MALDITOO!!")
+    #AUDIO DE RAIO
+    print("CAIU UM RAIO APÓS A MORTE DO ESQULETO!")
+    print("")
+    time.sleep(2)
+    print("Tink: O DRAGÃO INFERNAL TA AQUI!!!")
+    print("")
+    time.sleep(2)
+    print("Você: Merda! O raio que caiu após a morte do esqueleto acabou chamando a atenção dele")
+    print("")
+    time.sleep(2)
+    print("Você: É AGORA TINK! ")
+    time.sleep(2)
+    print("Você: É VENCER! ")
+    time.sleep(2)
+    print("Você: OU MORRER! ")
+    print("")
+    time.sleep(2)
+
+    print("               FASE FINAL")
+    print("            O DRAGÃO INFERNAL")
+    #AUDIO grito de dragão
+
+    print("")
+    time.sleep(2)
+    print("Tink: SE PREPARA!")
+    time.sleep(2)
+
+    while dragao > 0 and vida > 0:
+                print("Essa é sua ultima luta, escolha bem os ataques:")
+                print("1. Ataque Leve")
+                print("2. Ataque Moderado")
+                ataque_jogador2 = input("Digite o número do seu ataque: ")
+
+                if ataque_jogador2 == "1":
+                    dano_jogador2 = random.randint(20, 40)
+                    print("Você atacou o Dragão com um ataque leve, causando {} de dano!".format(dano_jogador2))
+                elif ataque_jogador2 == "2":
+                    dano_jogador2 = random.randint(40, 60)
+                    print("Você atacou o Dragão com um ataque moderado, causando {} de dano!".format(dano_jogador2))
+                else:
+                    print("Por favor, escolha um ataque válido.")
+                    continue
+
+                dragao -= dano_jogador2
+
+                if dragao <= 0:
+                    print("VOCÊ FINALMENTE DERROTOU O TERRIVEL DRAGÃO INFERNA")
+                    time.sleep(2)
+                    print("VOCÊ É O ORGULHO DO REINO!")
+                    
+                    break
+
+                print("Dragão contra-ataca!")
+                danog = random.randint(10, 20)
+                print("Dragão ataca você, causando {} de dano!".format(danog))
+                vida -= danog
+                if vida <= 0:
+                    print("Você foi derrotado pelo Dragão!")
+                    break
+
+            #audio we are the champions
+
+
+
+
+
+  
+    
+
+
+
+
+                
+
+                    
+
+
+
+
+
+
+
+
 
 
                                             
@@ -494,7 +850,7 @@ while True:
              
                     
 
-    #         missao1 = input("Óla, me chamo Rub.\nPoderia me ajudar com uma missão?(sim/não)")
+    #         missao1 = input("Óla, me chamo Rub.\*-nPoderia me ajudar com uma missão?(sim/não)")
     #         if missao1 == "sim":
     #             print("Ótimo, vá ate a floresta densa e procure pela minha filha que sumiu a 2 dias. te garanto uma ótima recompensa!")
     #             meio = input("Você deseja ir de barco ou cavalo?")
@@ -525,10 +881,7 @@ while True:
     #                                 print("Você seguiu caminhando para a Taverna, à procura de sabe-se lá o que")
     #                                 break
                                 
-    #                             elif quest == "3":
-    #                                 print("Você segue o seu caminho para o centro da cidade")
-    #                                 print("Esta é uma versão DEMO do jogo: PyGame - Um projeto de Diogo, para acessar a versão final, por favor adquira o produto no link a seguir: https://github.com/MontenegroDiogo/projeto-jogo-else/blob/main/index.py")
-    #                                 break
+    #                        
     #                             elif quest == "4":
     #                                 print("Você segue o seu caminho para o Dragon's Lair")
     #                                 print("O cheiro de enxofre e fumaça se difunde pelo ar... A sensação de que algo errado não está certo, perpetua-se pela sua cabeça... Quando derrepente")
