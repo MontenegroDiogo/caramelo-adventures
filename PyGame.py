@@ -9,259 +9,259 @@ Ragnar = 80
 
 while True:
     
-    # print("                 Bem vindo ao grande mundo de Whalbior!")
-    # print('')
+    print("                 Bem vindo ao grande mundo de Whalbior!")
+    print('')
     
 
-    # print("Antes de iniciarmos sua aventura, me diga, qual dessas classes você deseja começar o jogo?\n")
+    print("Antes de iniciarmos sua aventura, me diga, qual dessas classes você deseja começar o jogo?\n")
 
-    # print("1.Guerreiro - Você será mais ágil e habilidoso com armas.\n")
+    print("1.Guerreiro - Você será mais ágil e habilidoso com armas.\n")
     
     
         
-    # print("2.Mago - Você vai lutar com magias e será estratégico.\n")
+    print("2.Mago - Você vai lutar com magias e será estratégico.\n")
     
     
     
-    # print("3.Doguinho Caramelo - Essa raça/classe é apenas para quem deseja resenhar pelo mundo de Whalbior.\n")
-    # # winsound.PlaySound("medieval-inicio.wav", winsound.SND_FILENAME)
+    print("3.Doguinho Caramelo - Essa raça/classe é apenas para quem deseja resenhar pelo mundo de Whalbior.\n")
+    # winsound.PlaySound("medieval-inicio.wav", winsound.SND_FILENAME)
     
     
 
-    # classe = input("Digite o numero da classe escolhida: ")
-    # print("")
+    classe = input("Digite o numero da classe escolhida: ")
+    print("")
 
 
-    # if classe.lower() == "1":
+    if classe.lower() == "1":
             nick = input("Qual será seu nick meu nobre jogador?")
-    #         print("")
+            print("")
 
-    #         print("Ok {}, conheça a Tink!".format(nick))
-    #         time.sleep(1)
-    #         print("")
+            print("Ok {}, conheça a Tink!".format(nick))
+            time.sleep(1)
+            print("")
 
-    #         print("Tink: Óla {}, prazer em te conhecer!".format(nick))
-    #         time.sleep(2)
-    #         print("")
+            print("Tink: Óla {}, prazer em te conhecer!".format(nick))
+            time.sleep(2)
+            print("")
 
-    #         print("1. Olá! O prazer é todo meu!")
-    #         print("2. Oi")
-    #         print("3. ...")
+            print("1. Olá! O prazer é todo meu!")
+            print("2. Oi")
+            print("3. ...")
 
-    #         while True:
-    #                 respostatink = input("Responda a Tink: ")
+            while True:
+                    respostatink = input("Responda a Tink: ")
                     
-    #                 if (respostatink == "1"):
-    #                     print("")
-    #                     print("Você: Olá! O prazer é todo meu!")
-    #                     time.sleep(1)
-    #                     print("Tink: Já gostei de você!")
-    #                     break
+                    if (respostatink == "1"):
+                        print("")
+                        print("Você: Olá! O prazer é todo meu!")
+                        time.sleep(1)
+                        print("Tink: Já gostei de você!")
+                        break
                     
-    #                 elif (respostatink == "2"):
-    #                     print("")
-    #                     print("Você: Oi")
-    #                     time.sleep(1)
-    #                     print("Tink: ...")
-    #                     break
+                    elif (respostatink == "2"):
+                        print("")
+                        print("Você: Oi")
+                        time.sleep(1)
+                        print("Tink: ...")
+                        break
 
-    #                 elif (respostatink == "3"):
-    #                     print("")
-    #                     print("Você: ...")
-    #                     time.sleep(1)
-    #                     print("Tink: nossa...")
-    #                     break
+                    elif (respostatink == "3"):
+                        print("")
+                        print("Você: ...")
+                        time.sleep(1)
+                        print("Tink: nossa...")
+                        break
                     
-    #                 else:
-    #                     print("Por gentileza, escolha apenas uma das opções acima.")
-    #                     continue
-    #         print("")
-    #         time.sleep(1)
+                    else:
+                        print("Por gentileza, escolha apenas uma das opções acima.")
+                        continue
+            print("")
+            time.sleep(1)
 
-    #         print("Tink será a sua fada-guia.\nEla vai te explicar o porque de você estar aqui.")
-    #         time.sleep(1)
-    #         print("")
+            print("Tink será a sua fada-guia.\nEla vai te explicar o porque de você estar aqui.")
+            time.sleep(1)
+            print("")
 
-    #         print("Tink: Antes, vamos dar uma passadinha no centro de Whalbior.")
-    #         print("")
-    #         time.sleep(1)
+            print("Tink: Antes, vamos dar uma passadinha no centro de Whalbior.")
+            print("")
+            time.sleep(1)
 
-    #             #Msuica ambiental medieval
+                #Msuica ambiental medieval
 
-    #         print("         VOCÊ CHEGOU AO CENTRO DE WHALBIOR! ")
-    #         print("")
-    #         time.sleep(2)
+            print("         VOCÊ CHEGOU AO CENTRO DE WHALBIOR! ")
+            print("")
+            time.sleep(2)
 
-    #         print("Tink: Esse aqui é o centro da cidade de Whalbior.")
-    #         print("Tink: Oque achou?")
-    #         print("")
-    #         time.sleep(1)
+            print("Tink: Esse aqui é o centro da cidade de Whalbior.")
+            print("Tink: Oque achou?")
+            print("")
+            time.sleep(1)
 
-    #         print("1. É uma cidade muito linda Tink!")
-    #         print("2. Fede a bosta")
-    #         print("3. ...")
-    #         time.sleep(1)
+            print("1. É uma cidade muito linda Tink!")
+            print("2. Fede a bosta")
+            print("3. ...")
+            time.sleep(1)
 
             
-    #         while True:
-    #             respostatink2 = input("Responda: ")
+            while True:
+                respostatink2 = input("Responda: ")
 
-    #             if respostatink2 == '1':
-    #                 print("Tink: É realmente uma cidade linda, mas..")
-    #                 time.sleep(1)
-    #                 break
+                if respostatink2 == '1':
+                    print("Tink: É realmente uma cidade linda, mas..")
+                    time.sleep(1)
+                    break
                 
                 
-    #             elif respostatink2 == '2':
-    #                 print("Tink: Você é bem mau-humorado ein?")
-    #                 time.sleep(1)
-    #                 break
+                elif respostatink2 == '2':
+                    print("Tink: Você é bem mau-humorado ein?")
+                    time.sleep(1)
+                    break
                 
-    #             elif respostatink2 == '3':
-    #                 print('Tink: ok...')
-    #                 time.sleep(1)
-    #                 break
+                elif respostatink2 == '3':
+                    print('Tink: ok...')
+                    time.sleep(1)
+                    break
 
-    #             else:
-    #                 print("Escolha apenas uma das opções fornecidas.")
-    #                 continue
+                else:
+                    print("Escolha apenas uma das opções fornecidas.")
+                    continue
 
 
-    #         print("Tink: Ultimamente esta sendo muito invadidade por monstros e as vezes o terrivel dragão aparece para nos apavorar!")
-    #         time.sleep(1)
+            print("Tink: Ultimamente esta sendo muito invadidade por monstros e as vezes o terrivel dragão aparece para nos apavorar!")
+            time.sleep(1)
 
-    #         print("Tink: Inclusive, você foi escolhido para nos salvar desses monstros.")
-    #         time.sleep(1)
+            print("Tink: Inclusive, você foi escolhido para nos salvar desses monstros.")
+            time.sleep(1)
 
-    #         print("Tink: E eu fui escolhida para te guiar, estamos juntos nessa.")
-    #         time.sleep(1)
-    #         print("")
+            print("Tink: E eu fui escolhida para te guiar, estamos juntos nessa.")
+            time.sleep(1)
+            print("")
 
-    #         print("Você: Posso recusar?")
-    #         time.sleep(1)
+            print("Você: Posso recusar?")
+            time.sleep(1)
 
-    #         print("Tink: Pode sim, mas assim que recusar o governo vai mandar te matar. ")
-    #         time.sleep(2)
-    #         print("")
+            print("Tink: Pode sim, mas assim que recusar o governo vai mandar te matar. ")
+            time.sleep(2)
+            print("")
 
-    #         print("Tink: Você deseja recusar a missão?")
-    #         time.sleep(1)
-    #         print("")
+            print("Tink: Você deseja recusar a missão?")
+            time.sleep(1)
+            print("")
 
-    #         print("1.Aceitar")
-    #         print("2.Recusar")
+            print("1.Aceitar")
+            print("2.Recusar")
 
-    #         while True:
-    #             respostatink3 = input("Resposta: ")
-    #             if respostatink3 == '1':
-    #                 print("Tink: Ufa! Eles iriam me matar também caso você tivesse recusado.")
-    #                 break
+            while True:
+                respostatink3 = input("Resposta: ")
+                if respostatink3 == '1':
+                    print("Tink: Ufa! Eles iriam me matar também caso você tivesse recusado.")
+                    break
 
-    #             elif respostatink3 == "2":
-    #                 #Audio da faca cortando
-    #                 print("Você foi morto pelo governo e Tink acabou sendo morta também por sua culpa.")
-    #                 time.sleep(1)
-    #                 print("Tente novamente!")
-    #                 time.sleep(2)
-    #                 continue
+                elif respostatink3 == "2":
+                    #Audio da faca cortando
+                    print("Você foi morto pelo governo e Tink acabou sendo morta também por sua culpa.")
+                    time.sleep(1)
+                    print("Tente novamente!")
+                    time.sleep(2)
+                    continue
 
-    #             else:
-    #                 print("Escolha apenas uma das opções fornecidas.")
-    #                 continue
+                else:
+                    print("Escolha apenas uma das opções fornecidas.")
+                    continue
 
                     
 
 
 
-    #         time.sleep(3)
+            time.sleep(3)
 
-    #         print("Tink: Relaxa! Você só foi escolhido porque viram potencial em você. ")
-    #         print("Tink: Deixa eu te mostrar um negócio. ")
-    #         time.sleep(1)
+            print("Tink: Relaxa! Você só foi escolhido porque viram potencial em você. ")
+            print("Tink: Deixa eu te mostrar um negócio. ")
+            time.sleep(1)
 
-    #         print("Tink: Os guerrerios que tentaram e voltaram com vida, foram aos poucos fazendo uma mapa da maneira mais fáil de conseguir chegar no temido Dragão Infernal!")
+            print("Tink: Os guerrerios que tentaram e voltaram com vida, foram aos poucos fazendo uma mapa da maneira mais fáil de conseguir chegar no temido Dragão Infernal!")
                     
-    #         print("")
-    #         time.sleep(1)
+            print("")
+            time.sleep(1)
 
-    #         print("Você: Dragão Infernal?")
+            print("Você: Dragão Infernal?")
 
-    #         print("")
-    #         time.sleep(1)
+            print("")
+            time.sleep(1)
 
-    #         print("Tink: Sim, é porque ele transformou nossa vida em um inferno!")
+            print("Tink: Sim, é porque ele transformou nossa vida em um inferno!")
 
-    #         print("")
-    #         time.sleep(1)
+            print("")
+            time.sleep(1)
 
-    #         print("Você: Entendi, cade o mapa?")
+            print("Você: Entendi, cade o mapa?")
                     
-    #         print("")
-    #         time.sleep(1)
+            print("")
+            time.sleep(1)
 
         
-    #         print("Tink: aqui esta!")
+            print("Tink: aqui esta!")
 
-    #         print("")
-    #         time.sleep(1)
+            print("")
+            time.sleep(1)
 
-    #         print("Você: Deixa eu ler aqui...")
-    #         #Audio passando folha
-    #         time.sleep(2)
+            print("Você: Deixa eu ler aqui...")
+            #Audio passando folha
+            time.sleep(2)
         
 
-    #         print("Você: Aqui ta dizendo o seguinte:")
-    #         time.sleep(1)
-    #         print("Você: Para realmente derrotar o dragão infernal, vou ter que passar pela Floresta proibida e procurar a Caverna Misteriosa.")
-    #         time.sleep(1)
-    #         print("Você: Após sair da caverna eu Vou me deparar com o Rio de aguas mortas e navegar por ele até achar um Castelo Amaldiçoado.")
-    #         time.sleep(1)
-    #         print("Você: E logo após isso, vou até a montanha aonde geralmente esta o dragão para enfrenta-lo")
+            print("Você: Aqui ta dizendo o seguinte:")
+            time.sleep(1)
+            print("Você: Para realmente derrotar o dragão infernal, vou ter que passar pela Floresta proibida e procurar a Caverna Misteriosa.")
+            time.sleep(1)
+            print("Você: Após sair da caverna eu Vou me deparar com o Rio de aguas mortas e navegar por ele até achar um Castelo Amaldiçoado.")
+            time.sleep(1)
+            print("Você: E logo após isso, vou até a montanha aonde geralmente esta o dragão para enfrenta-lo")
 
-    #         print("")
-    #         time.sleep(1)
+            print("")
+            time.sleep(1)
 
-    #         print("Tink: Você tem muito trabalho pela frente, vamos logo!")
-    #         time.sleep(2)
+            print("Tink: Você tem muito trabalho pela frente, vamos logo!")
+            time.sleep(2)
 
-    #         print("               FLORESTA PROIBIDA  ")
-    #         #AUDIO de floresta ambiente
-    #         time.sleep(2)
+            print("               FLORESTA PROIBIDA  ")
+            #AUDIO de floresta ambiente
+            time.sleep(2)
 
-    #         print("Tink: Essa floresta é realmente assustadora {}!".format(nick))
-    #         time.sleep(1)
+            print("Tink: Essa floresta é realmente assustadora {}!".format(nick))
+            time.sleep(1)
 
-    #         print("Tink: Eu soube das muitas historias a respeito dos ataques de goblins que ocorrem muito por aqui")
-    #         time.sleep(1)
-    #         print("")
+            print("Tink: Eu soube das muitas historias a respeito dos ataques de goblins que ocorrem muito por aqui")
+            time.sleep(1)
+            print("")
 
-    #         print("1. Calma, não vai acontecer nada.")
-    #         print("2. Tomara que eles te sequestrem.")
-    #         print("3. ...")
+            print("1. Calma, não vai acontecer nada.")
+            print("2. Tomara que eles te sequestrem.")
+            print("3. ...")
 
-    #         while True:
-    #             respostatink4 = input("Responda: ")
-    #             if respostatink4 == "1":
-    #                 print("Você: Calma, não vai acontecer nada.")
-    #                 time.sleep(1)
-    #                 print("Tink: Tomara, obrigado por me acalmar.")
-    #                 break
+            while True:
+                respostatink4 = input("Responda: ")
+                if respostatink4 == "1":
+                    print("Você: Calma, não vai acontecer nada.")
+                    time.sleep(1)
+                    print("Tink: Tomara, obrigado por me acalmar.")
+                    break
 
-    #             elif respostatink4 =='2':
-    #                 print("Você: Tomara que eles te sequestrem.")
-    #                 time.sleep(1)
-    #                 print("Tink: Para! Porque você é assim??")
-    #                 break
+                elif respostatink4 =='2':
+                    print("Você: Tomara que eles te sequestrem.")
+                    time.sleep(1)
+                    print("Tink: Para! Porque você é assim??")
+                    break
 
-    #             elif respostatink4 =='3':
-    #                 print("Você: ...")
-    #                 time.sleep(1)
-    #                 print("Tink: Você é caladão ein?")
-    #                 break
+                elif respostatink4 =='3':
+                    print("Você: ...")
+                    time.sleep(1)
+                    print("Tink: Você é caladão ein?")
+                    break
 
-    #             else:
-    #                 print("Escolha apenas uma das opções fornecidas.")
-    #                 continue 
+                else:
+                    print("Escolha apenas uma das opções fornecidas.")
+                    continue 
 
             print("Tink: Acho que vamos chegar na carvena mais rapido do que eu pensa--...")
             time.sleep(1)
@@ -494,68 +494,68 @@ while True:
              
                     
 
-            missao1 = input("Óla, me chamo Rub.\nPoderia me ajudar com uma missão?(sim/não)")
-            if missao1 == "sim":
-                print("Ótimo, vá ate a floresta densa e procure pela minha filha que sumiu a 2 dias. te garanto uma ótima recompensa!")
-                meio = input("Você deseja ir de barco ou cavalo?")
-                if meio == "barco":
-                    print("Você escolheu ir de barco e chegou em 2 dias.")
-                    print("Você se deparou com um pedaço de um vestido, deve ser da filha do homem.")
-                    winsound.PlaySound("girl-scream.wav", winsound.SND_FILENAME)
-                    print("Veja, ela esta sendo levada por um grupo de goblins")
-                    while True:
-                        ato = input("Você prefere lutar com eles ou segui-los desfarçadamente?(lutar/seguir)")
-                        if ato == "lutar":
-                            print("Você morreu por tentar lutar com todos, escolha certo agora")
-                        else:
-                            print("Você continua sua caminhada ao longo da estrada, com a consciência pesada de ter agido de maneira indiferente quanto a situação. \n" "Seu lixo de ser-humano")
-                            print("Você se depara com uma pequena cidade no horizonte de sua jornada!")
-                            winsound.PlaySound("brilho.wav", winsound.SND_FILENAME)
-                            time.sleep(1)
-                            print("Bem vindo a Ghanor, aventureiro!")
-                            print("Ao passar pelos grandes portões em formato de arco da cidade, você se depara com uma região balceda, uma síntese de São Paulo com Amazonas, inclusive com os vendedores da 25 de março populando as vielas da cidade.")
-                            print(f"O que desejas fazer {nick}?")
+    #         missao1 = input("Óla, me chamo Rub.\nPoderia me ajudar com uma missão?(sim/não)")
+    #         if missao1 == "sim":
+    #             print("Ótimo, vá ate a floresta densa e procure pela minha filha que sumiu a 2 dias. te garanto uma ótima recompensa!")
+    #             meio = input("Você deseja ir de barco ou cavalo?")
+    #             if meio == "barco":
+    #                 print("Você escolheu ir de barco e chegou em 2 dias.")
+    #                 print("Você se deparou com um pedaço de um vestido, deve ser da filha do homem.")
+    #                 winsound.PlaySound("girl-scream.wav", winsound.SND_FILENAME)
+    #                 print("Veja, ela esta sendo levada por um grupo de goblins")
+    #                 while True:
+    #                     ato = input("Você prefere lutar com eles ou segui-los desfarçadamente?(lutar/seguir)")
+    #                     if ato == "lutar":
+    #                         print("Você morreu por tentar lutar com todos, escolha certo agora")
+    #                     else:
+    #                         print("Você continua sua caminhada ao longo da estrada, com a consciência pesada de ter agido de maneira indiferente quanto a situação. \n" "Seu lixo de ser-humano")
+    #                         print("Você se depara com uma pequena cidade no horizonte de sua jornada!")
+    #                         winsound.PlaySound("brilho.wav", winsound.SND_FILENAME)
+    #                         time.sleep(1)
+    #                         print("Bem vindo a Ghanor, aventureiro!")
+    #                         print("Ao passar pelos grandes portões em formato de arco da cidade, você se depara com uma região balceda, uma síntese de São Paulo com Amazonas, inclusive com os vendedores da 25 de março populando as vielas da cidade.")
+    #                         print(f"O que desejas fazer {nick}?")
 
-                            while True:
-                                quest = input("1. Seguir para a Taverna = \n"
-                                            "2. Dialogar com um dos vendedores da 25 de março = \n"
-                                            "3. Seguir para o centro da cidade = \n"
-                                            "4. Seguir para o Dragon's Lair = \n")
-                                if quest == "1":
-                                    print("Você seguiu caminhando para a Taverna, à procura de sabe-se lá o que")
-                                    break
+    #                         while True:
+    #                             quest = input("1. Seguir para a Taverna = \n"
+    #                                         "2. Dialogar com um dos vendedores da 25 de março = \n"
+    #                                         "3. Seguir para o centro da cidade = \n"
+    #                                         "4. Seguir para o Dragon's Lair = \n")
+    #                             if quest == "1":
+    #                                 print("Você seguiu caminhando para a Taverna, à procura de sabe-se lá o que")
+    #                                 break
                                 
-                                elif quest == "3":
-                                    print("Você segue o seu caminho para o centro da cidade")
-                                    print("Esta é uma versão DEMO do jogo: PyGame - Um projeto de Diogo, para acessar a versão final, por favor adquira o produto no link a seguir: https://github.com/MontenegroDiogo/projeto-jogo-else/blob/main/index.py")
-                                    break
-                                elif quest == "4":
-                                    print("Você segue o seu caminho para o Dragon's Lair")
-                                    print("O cheiro de enxofre e fumaça se difunde pelo ar... A sensação de que algo errado não está certo, perpetua-se pela sua cabeça... Quando derrepente")
-                                    print("UM DRAGÃO SURGE EM SUA FRENTE!")
-                                    print("Para seu azar, meu amigo você só tem uma opção... A outra não era tão boa para você. LUTAR!")
-                                    print("Você se prepara para dar um ataque: Você tem três opções: \n 1. Ataque leve \n 2. Ataque Médio e \n 3. Ataque pesado \n O que deseja fazer?:")
-                                    while dragao > 0:
-                                        ataque = input("Digite aqui o seu ataque: ")
-                                        if ataque == "1":
-                                            print("Você realizou um ataque leve")
-                                            dano = random.randint(10,30)
-                                            dragao = max(0, dragao - dano)
-                                            print(f'Você realizou {dano} de Dano no Dragão, restam {dragao} de vida')
-                                        elif ataque == "2":   
-                                            print("Você realizou um ataque médio")
-                                            dano = random.randint(50,70)
-                                            dragao = max(0, dragao - dano)
-                                            print(f'Você realizou {dano} de Dano no Dragão, restam {dragao} de vida')
-                                        elif ataque == "3":
-                                            print("Você realizou um ataque pesado")
-                                            dano = random.randint(70,95)
-                                            dragao = max(0, dragao - dano)
-                                            print(f'Você realizou {dano} de Dano no Dragão, restam {dragao} de vida')
-                                    print("Você derrotou o drãgão, Parabéns :)")
-                                    break
-                            break
-    #     elif():
+    #                             elif quest == "3":
+    #                                 print("Você segue o seu caminho para o centro da cidade")
+    #                                 print("Esta é uma versão DEMO do jogo: PyGame - Um projeto de Diogo, para acessar a versão final, por favor adquira o produto no link a seguir: https://github.com/MontenegroDiogo/projeto-jogo-else/blob/main/index.py")
+    #                                 break
+    #                             elif quest == "4":
+    #                                 print("Você segue o seu caminho para o Dragon's Lair")
+    #                                 print("O cheiro de enxofre e fumaça se difunde pelo ar... A sensação de que algo errado não está certo, perpetua-se pela sua cabeça... Quando derrepente")
+    #                                 print("UM DRAGÃO SURGE EM SUA FRENTE!")
+    #                                 print("Para seu azar, meu amigo você só tem uma opção... A outra não era tão boa para você. LUTAR!")
+    #                                 print("Você se prepara para dar um ataque: Você tem três opções: \n 1. Ataque leve \n 2. Ataque Médio e \n 3. Ataque pesado \n O que deseja fazer?:")
+    #                                 while dragao > 0:
+    #                                     ataque = input("Digite aqui o seu ataque: ")
+    #                                     if ataque == "1":
+    #                                         print("Você realizou um ataque leve")
+    #                                         dano = random.randint(10,30)
+    #                                         dragao = max(0, dragao - dano)
+    #                                         print(f'Você realizou {dano} de Dano no Dragão, restam {dragao} de vida')
+    #                                     elif ataque == "2":   
+    #                                         print("Você realizou um ataque médio")
+    #                                         dano = random.randint(50,70)
+    #                                         dragao = max(0, dragao - dano)
+    #                                         print(f'Você realizou {dano} de Dano no Dragão, restam {dragao} de vida')
+    #                                     elif ataque == "3":
+    #                                         print("Você realizou um ataque pesado")
+    #                                         dano = random.randint(70,95)
+    #                                         dragao = max(0, dragao - dano)
+    #                                         print(f'Você realizou {dano} de Dano no Dragão, restam {dragao} de vida')
+    #                                 print("Você derrotou o drãgão, Parabéns :)")
+    #                                 break
+    #                         break
+    # #     elif():
     #         sexoh.lower() == "mulher"
     #         nick = input("Qual seu nome, minha cara?")
     #         print("Ok {}, vamos começar a aventura!".format(nick))
